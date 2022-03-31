@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".ControllerParameter"
+
+		android:gravity="center"
+		android:orientation="vertical"
+		android:background="@color/game_bg"
+
+		android:padding="50dp">
+
+	<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/touch"
+
+				android:textStyle="bold"
+				android:textSize="11pt"
+				android:backgroundTint="@color/button_bg" />
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/moves"
+
+				android:textStyle="bold"
+				android:textSize="11pt"
+				android:backgroundTint="@color/unclickable_button_bg" />
+	</LinearLayout>
+
+	<View
+			android:layout_width="match_parent"
+			android:layout_height="50dp" />
+
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/name"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg"
+			android:textColor="@color/white"/>
+
+	<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="110pt" />
+
+	<View
+			android:layout_width="match_parent"
+			android:layout_height="50dp" />
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:text="@string/back"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg" />
+
+
+</LinearLayout>

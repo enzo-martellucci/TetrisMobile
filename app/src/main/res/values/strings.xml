@@ -1,0 +1,16 @@
+<resources>
+	<string name="app_name">Tetris</string>
+
+	<string name="play">Play</string>
+	<string name="score">Best scores</string>
+	<string name="param">Parameters</string>
+	<string name="exit">Exit</string>
+	<string name="touch">Touch</string>
+	<string name="moves">Moves</string>
+	<string name="name">Name :</string>
+	<string name="back">Back</string>
+	<string name="tourner">Tourner</string>
+	<string name="gauche">Gauche</string>
+	<string name="droite">Droite</string>
+	<string name="bas">Bas</string>
+</resources>

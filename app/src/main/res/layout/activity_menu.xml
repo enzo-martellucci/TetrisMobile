@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".ControllerMenu"
+
+		android:gravity="center"
+		android:orientation="vertical"
+		android:background="@color/game_bg"
+
+		android:padding="50dp">
+
+	<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/play"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg"
+
+			android:onClick="play"
+			/>
+
+	<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/score"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg"
+
+			android:onClick="score"
+			/>
+
+	<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/param"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg"
+
+			android:onClick="parameter"
+			/>
+
+	<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/exit"
+
+			android:textStyle="bold"
+			android:textSize="11pt"
+			android:backgroundTint="@color/button_bg"
+
+			android:onClick="exit"
+			/>
+</LinearLayout>

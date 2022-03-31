@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".ControllerGame"
+
+		android:orientation="vertical"
+		android:background="@color/game_bg">
+
+
+	<com.tetris.view.TetrisView
+			android:id="@+id/tetrisView"
+			android:layout_width="match_parent"
+			android:layout_height="650dp" />
+
+	<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp">
+
+		<Button android:id="@+id/btnLeft"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/gauche"
+
+				android:textStyle="bold"
+				android:backgroundTint="@color/button_bg" />
+
+		<Button android:id="@+id/btnDown"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/bas"
+
+				android:textStyle="bold"
+				android:backgroundTint="@color/unclickable_button_bg" />
+
+		<Button android:id="@+id/btnRight"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/droite"
+
+				android:textStyle="bold"
+				android:backgroundTint="@color/button_bg" />
+
+		<Button android:id="@+id/btnTurn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/tourner"
+
+				android:textStyle="bold"
+				android:backgroundTint="@color/unclickable_button_bg" />
+
+	</LinearLayout>
+
+
+</LinearLayout>
